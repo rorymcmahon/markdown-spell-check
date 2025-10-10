@@ -2,7 +2,7 @@
   "name": "markdown-spell-check",
   "displayName": "Markdown Spell Check",
   "description": "Local spell checking for Markdown files in VS Code",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "rorymcmahon",
   "license": "MIT",
   "repository": {

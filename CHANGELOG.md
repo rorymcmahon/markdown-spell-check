@@ -5,7 +5,7 @@ All notable changes to the "Markdown Spell Check" extension will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.2.0] - 2025-01-10
 
 ### Added
 - **Markdown formatting assistance** - Helps create well-formatted markdown files
@@ -15,11 +15,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Multiple blank line detection** - Removes excessive blank lines
 - **Quick fix actions** - One-click fixes for all formatting issues
 - **Granular configuration** - Individual settings for each formatting feature
-- Initial spell checking functionality for Markdown files
-- Real-time spell checking with diagnostic highlighting
-- Quick fix suggestions for misspelled words
-- Configuration options for enabling/disabling spell check
-- Support for en-US dictionary
+
+### Changed
+- Enhanced diagnostic provider to support both spell checking and formatting
+- Updated README with comprehensive feature documentation
+- Improved configuration options with detailed descriptions
+
+## [Unreleased]
+
+### Added
 
 ### Changed
 
