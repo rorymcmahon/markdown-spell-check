@@ -81,7 +81,7 @@ export class SpellChecker {
         // Skip numbers, URLs, and markdown syntax
         if (/^\d+$/.test(word) || 
             /^https?:\/\//.test(word) || 
-            /^[#*_`\[\]()]+$/.test(word) ||
+            /^[#*_`[\]()]+$/.test(word) ||
             /^[A-Z_]+$/.test(word)) { // Skip ALL_CAPS words (often constants)
             return true;
         }
