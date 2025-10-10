@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Markdown formatting assistance** - Helps create well-formatted markdown files
+- **Blank line checking** - Ensures proper spacing around headings and code blocks
+- **Trailing whitespace detection** - Identifies and removes trailing spaces/tabs
+- **List consistency checking** - Promotes consistent list marker usage (prefers "-")
+- **Multiple blank line detection** - Removes excessive blank lines
+- **Quick fix actions** - One-click fixes for all formatting issues
+- **Granular configuration** - Individual settings for each formatting feature
 - Initial spell checking functionality for Markdown files
 - Real-time spell checking with diagnostic highlighting
 - Quick fix suggestions for misspelled words
