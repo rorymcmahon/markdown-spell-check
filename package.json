@@ -45,6 +45,26 @@
             "American English", 
             "British English"
           ]
+        },
+        "markdownSpellCheck.formatting.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable markdown formatting assistance"
+        },
+        "markdownSpellCheck.formatting.blankLines": {
+          "type": "boolean",
+          "default": true,
+          "description": "Check for proper blank lines around headings and code blocks"
+        },
+        "markdownSpellCheck.formatting.trailingWhitespace": {
+          "type": "boolean",
+          "default": true,
+          "description": "Check for trailing whitespace"
+        },
+        "markdownSpellCheck.formatting.listConsistency": {
+          "type": "boolean",
+          "default": true,
+          "description": "Check for consistent list marker usage"
         }
       }
     }

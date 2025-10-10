@@ -10,6 +10,7 @@ A lightweight, local spell checker for Markdown files in Visual Studio Code.
 - ✅ **Simple & Automatic** - Just install and it works
 - ✅ **Quick Fixes** - Provides spelling suggestions
 - ✅ **Configurable** - Enable/disable as needed
+- ✅ **Markdown Formatting** - Helps create well-formatted markdown files
 
 ## Installation
 
@@ -28,8 +29,15 @@ The extension automatically activates when you open a Markdown file. Misspelled 
 
 Access settings via `File > Preferences > Settings` and search for "Markdown Spell Check":
 
+**Spell Checking:**
 - `markdownSpellCheck.enabled`: Enable/disable spell checking (default: true)
 - `markdownSpellCheck.language`: Dictionary language (default: en-AU, options: en-AU, en-US, en-GB)
+
+**Markdown Formatting:**
+- `markdownSpellCheck.formatting.enabled`: Enable/disable formatting assistance (default: true)
+- `markdownSpellCheck.formatting.blankLines`: Check blank lines around headings/code blocks (default: true)
+- `markdownSpellCheck.formatting.trailingWhitespace`: Check for trailing whitespace (default: true)
+- `markdownSpellCheck.formatting.listConsistency`: Check consistent list markers (default: true)
 
 ## Development
 
