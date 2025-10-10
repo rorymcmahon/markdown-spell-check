@@ -37,8 +37,14 @@
         },
         "markdownSpellCheck.language": {
           "type": "string",
-          "default": "en-US",
-          "description": "Dictionary language to use for spell checking"
+          "default": "en-AU",
+          "description": "Dictionary language to use for spell checking",
+          "enum": ["en-AU", "en-US", "en-GB"],
+          "enumDescriptions": [
+            "Australian English",
+            "American English", 
+            "British English"
+          ]
         }
       }
     }

@@ -29,7 +29,7 @@ The extension automatically activates when you open a Markdown file. Misspelled 
 Access settings via `File > Preferences > Settings` and search for "Markdown Spell Check":
 
 - `markdownSpellCheck.enabled`: Enable/disable spell checking (default: true)
-- `markdownSpellCheck.language`: Dictionary language (default: en-US)
+- `markdownSpellCheck.language`: Dictionary language (default: en-AU, options: en-AU, en-US, en-GB)
 
 ## Development
 
