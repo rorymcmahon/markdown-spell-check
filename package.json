@@ -78,7 +78,7 @@
     "test": "echo 'No tests yet - skipping test step'"
   },
   "devDependencies": {
-    "@types/vscode": "^1.74.0",
+    "@types/vscode": "^1.106.1",
     "@types/node": "24.x",
     "@typescript-eslint/eslint-plugin": "^8.46.3",
     "@typescript-eslint/parser": "^8.47.0",
